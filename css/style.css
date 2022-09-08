@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Ms+Madi&family=Ubuntu+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 14rem 10%;
+    background-color: rgb(36, 36, 36);
+    color: rgb(223, 223, 223);
+}
+
+.group {
+    padding: 1.8rem 0;
+}
+
+h1, h2, h3 {
+    padding-bottom: 1.2rem;
+    color: red;
+    text-align: center;
+}
+
+.group p {
+    font-size: 2rem;
+    color: green;
+    text-align: center;
+}
+
+.font_01 {
+    font-family: 'Ubuntu Mono', monospace;
+}
+.font_02 {
+    font-family: 'Caveat', cursive;
+}
+.font_03 {
+    font-family: 'Ms Madi', cursive;
+}
+
+.img {
+    text-align: center;
+}
+.img img {
+    width: 200px;
+    height: 200px;
+}
+
+.link {
+    text-align: center;
+    font-size: 1.8rem;
+}
+.link a {
+    text-decoration: none;
+    color: blueviolet;
+}
+.link a:hover {
+    text-decoration: none;
+    color: rgb(116, 37, 190);
+}
